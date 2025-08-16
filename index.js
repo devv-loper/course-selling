@@ -2,9 +2,9 @@ require('dotenv').config()
 console.log(process.env.MONGO_URL);
 const express = require("express");
 const mongoose = require("mongoose");
-const jwt = require("jsonwebtoken");
-const { z } = require("zod");
-const bcrypt = require("bcrypt");
+// const jwt = require("jsonwebtoken");
+// const { z } = require("zod");
+// const bcrypt = require("bcrypt");
 
 const { userRouter } = require("./routes/user");
 const { courseRouter } = require("./routes/course");
